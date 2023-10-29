@@ -1,0 +1,18 @@
+[project]
+name = "cryzip"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "kaivio", email = "kaivio@github.com"},
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[project.scripts]
+mycli = "cryzip.__main__:main"

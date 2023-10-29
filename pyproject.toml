@@ -15,4 +15,4 @@ requires = ["pdm-backend"]
 build-backend = "pdm.backend"
 
 [project.scripts]
-mycli = "cryzip.__main__:main"
+cryzip = "cryzip.__main__:main"
